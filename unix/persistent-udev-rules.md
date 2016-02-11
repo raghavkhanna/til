@@ -18,5 +18,6 @@ Change /dev/ttyUSB* to something more descriptive. Eg: /dev/autopilot
    ```
    sudo udevadm test /devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2:1.0/ttyUSB1/tty/ttyUSB1
    ```
+   
 [source1-udev-rules](http://weininger.net/how-to-write-udev-rules-for-usb-devices.html)  
 [source2-serial-usb](http://hintshop.ludvig.co.nz/show/persistent-names-usb-serial-devices/)
